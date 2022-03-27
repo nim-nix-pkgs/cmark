@@ -11,6 +11,7 @@
   inputs.src-cmark-master.ref   = "refs/heads/master";
   inputs.src-cmark-master.owner = "zengxs";
   inputs.src-cmark-master.repo  = "nim-cmark";
+  inputs.src-cmark-master.dir   = "";
   inputs.src-cmark-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
