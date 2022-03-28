@@ -11,7 +11,6 @@
   inputs.src-cmark-0_1_0.ref   = "refs/tags/0.1.0";
   inputs.src-cmark-0_1_0.owner = "zengxs";
   inputs.src-cmark-0_1_0.repo  = "nim-cmark";
-  inputs.src-cmark-0_1_0.dir   = "";
   inputs.src-cmark-0_1_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
