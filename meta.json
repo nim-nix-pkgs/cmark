@@ -7,7 +7,7 @@
   "license": "Apache-2.0",
   "web": "https://github.com/zengxs/nim-cmark",
   "refs": [
-    "fatal: unable to access 'https://github.com/zengxs/nim-cmark/': Error in the HTTP2 framing layer",
+    "fatal: unable to access 'https://github.com/zengxs/nim-cmark/': Failed to connect to github.com port 443 after 129054 ms: Connection timed out",
     ""
   ],
   "heads": []
