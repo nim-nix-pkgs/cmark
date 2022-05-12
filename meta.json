@@ -2,13 +2,78 @@
   "name": "cmark",
   "url": "https://github.com/zengxs/nim-cmark",
   "method": "git",
-  "tags": [],
+  "tags": [
+    {
+      "name": "cmark",
+      "version": "0.1.0",
+      "author": "zengxs",
+      "desc": "libcmark wrapper for Nim",
+      "license": "Apache-2.0",
+      "skipDirs": [],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "a",
+        "nim"
+      ],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 1.0.0",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "1.0.0"
+          }
+        }
+      ],
+      "bin": [],
+      "binDir": "",
+      "srcDir": "src",
+      "backend": "c",
+      "ref": "refs/tags/0.1.0"
+    }
+  ],
   "description": "libcmark wrapper for Nim",
   "license": "Apache-2.0",
   "web": "https://github.com/zengxs/nim-cmark",
   "refs": [
-    "fatal: unable to access 'https://github.com/zengxs/nim-cmark/': Failed to connect to github.com port 443 after 129054 ms: Connection timed out",
+    "refs/heads/master",
+    "refs/tags/0.1.0",
     ""
   ],
-  "heads": []
+  "heads": [
+    {
+      "name": "cmark",
+      "version": "0.1.0",
+      "author": "zengxs",
+      "desc": "libcmark wrapper for Nim",
+      "license": "Apache-2.0",
+      "skipDirs": [],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "a",
+        "nim"
+      ],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 1.0.0",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "1.0.0"
+          }
+        }
+      ],
+      "bin": [],
+      "binDir": "",
+      "srcDir": "src",
+      "backend": "c",
+      "ref": "refs/heads/master"
+    }
+  ]
 }
